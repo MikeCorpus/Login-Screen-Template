@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func SignIn(_ sender: Any) {
+        performSegue(withIdentifier: "Sign In", sender: self)
+    }
+    
+    @IBAction func Sign(_ sender: Any) {
+        performSegue(withIdentifier: "Sign Up", sender: self)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

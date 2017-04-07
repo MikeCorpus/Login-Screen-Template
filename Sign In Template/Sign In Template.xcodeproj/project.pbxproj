@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		273E4FDE1E97567B0032F6DD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273E4FDD1E97567B0032F6DD /* SignUpViewController.swift */; };
+		273E4FE01E9758A40032F6DD /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273E4FDF1E9758A40032F6DD /* SignInViewController.swift */; };
 		2794C7A11E973910009D90A3 /* profile-picture-selector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2794C7A01E973910009D90A3 /* profile-picture-selector@2x.png */; };
 		27D9AA5B1E9727F3000B4C2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9AA5A1E9727F3000B4C2B /* AppDelegate.swift */; };
 		27D9AA5D1E9727F3000B4C2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9AA5C1E9727F3000B4C2B /* ViewController.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		273E4FDD1E97567B0032F6DD /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		273E4FDF1E9758A40032F6DD /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		2794C7A01E973910009D90A3 /* profile-picture-selector@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-picture-selector@2x.png"; sourceTree = "<group>"; };
 		27D9AA571E9727F3000B4C2B /* Sign In Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sign In Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D9AA5A1E9727F3000B4C2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,9 +98,11 @@
 				27D9AA5A1E9727F3000B4C2B /* AppDelegate.swift */,
 				27D9AA5C1E9727F3000B4C2B /* ViewController.swift */,
 				27D9AA5E1E9727F3000B4C2B /* Main.storyboard */,
+				273E4FDD1E97567B0032F6DD /* SignUpViewController.swift */,
 				27D9AA611E9727F3000B4C2B /* Assets.xcassets */,
 				27D9AA631E9727F3000B4C2B /* LaunchScreen.storyboard */,
 				27D9AA661E9727F3000B4C2B /* Info.plist */,
+				273E4FDF1E9758A40032F6DD /* SignInViewController.swift */,
 			);
 			path = "Sign In Template";
 			sourceTree = "<group>";
@@ -215,6 +221,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				273E4FE01E9758A40032F6DD /* SignInViewController.swift in Sources */,
+				273E4FDE1E97567B0032F6DD /* SignUpViewController.swift in Sources */,
 				27D9AA5D1E9727F3000B4C2B /* ViewController.swift in Sources */,
 				27D9AA5B1E9727F3000B4C2B /* AppDelegate.swift in Sources */,
 			);

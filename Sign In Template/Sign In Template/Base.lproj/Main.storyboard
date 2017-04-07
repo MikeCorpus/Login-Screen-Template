@@ -66,7 +66,8 @@
                                     <color key="titleColor" red="0.17254901959999999" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="sqd-fw-7Pz" kind="show" id="imR-tB-7OK"/>
+                                    <action selector="SignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zsA-JF-lg0"/>
+                                    <segue destination="zkk-qn-oLT" kind="show" identifier="Sign In" id="chc-pe-WEx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cew-7Y-Fm9">
@@ -77,7 +78,8 @@
                                     <color key="titleColor" red="0.9999127984046936" green="1" blue="0.99988144636154175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="zkk-qn-oLT" kind="show" id="uoO-zO-bfa"/>
+                                    <action selector="Sign:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bEe-F7-B7L"/>
+                                    <segue destination="sqd-fw-7Pz" kind="show" identifier="Sign Up" id="mjb-DF-jhl"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coded with love by @mikecorpus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8kx-ns-Xt0">
@@ -118,10 +120,10 @@
             </objects>
             <point key="canvasLocation" x="13" y="121"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="CeG-2z-oLs">
             <objects>
-                <viewController id="sqd-fw-7Pz" sceneMemberID="viewController">
+                <viewController id="sqd-fw-7Pz" customClass="SignUpViewController" customModule="Sign_In_Template" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LoR-aw-dmD"/>
                         <viewControllerLayoutGuide type="bottom" id="umZ-oY-nKw"/>
@@ -158,17 +160,6 @@
                                 <rect key="frame" x="52" y="54" width="271" height="106"/>
                                 <state key="normal" image="profile-picture-selector.png"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4h-fD-90L">
-                                <rect key="frame" x="44" y="568" width="289" height="51"/>
-                                <color key="backgroundColor" red="0.17254901959999999" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="51" id="bkB-Qb-SOY"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald Regular" pointSize="17"/>
-                                <state key="normal" title="Sign Up">
-                                    <color key="titleColor" red="0.99991279840000002" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tap to upload" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyS-aC-8dS">
                                 <rect key="frame" x="52" y="168" width="271" height="21"/>
                                 <constraints>
@@ -178,6 +169,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4h-fD-90L">
+                                <rect key="frame" x="43" y="533" width="289" height="51"/>
+                                <color key="backgroundColor" red="0.17254901959999999" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="bkB-Qb-SOY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald Regular" pointSize="17"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" red="0.99991279840000002" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Pv-Cg-bxR">
+                                <rect key="frame" x="168" y="592" width="39" height="36"/>
+                                <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="17"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleColor" red="0.17254901959999999" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelSignUp:" destination="sqd-fw-7Pz" eventType="touchUpInside" id="MQj-z3-TDe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -188,31 +200,33 @@
                             <constraint firstItem="F8z-K2-esI" firstAttribute="centerY" secondItem="YvM-bu-jrs" secondAttribute="centerY" id="M0i-Be-Nzo"/>
                             <constraint firstItem="9nP-vY-28A" firstAttribute="centerX" secondItem="YvM-bu-jrs" secondAttribute="centerX" id="MUw-cj-IYs"/>
                             <constraint firstItem="F8z-K2-esI" firstAttribute="top" secondItem="Aht-3C-0Me" secondAttribute="bottom" constant="28" id="NAj-Hr-axq"/>
-                            <constraint firstItem="O4h-fD-90L" firstAttribute="leading" secondItem="YvM-bu-jrs" secondAttribute="leadingMargin" constant="28" id="Ozw-3X-TdC"/>
+                            <constraint firstItem="O4h-fD-90L" firstAttribute="leading" secondItem="YvM-bu-jrs" secondAttribute="leadingMargin" constant="27" id="Ozw-3X-TdC"/>
                             <constraint firstItem="F8z-K2-esI" firstAttribute="trailing" secondItem="eye-FX-hsT" secondAttribute="trailing" id="Thg-ys-wKz"/>
-                            <constraint firstItem="F8z-K2-esI" firstAttribute="centerX" secondItem="O4h-fD-90L" secondAttribute="centerX" id="U3O-4m-7io"/>
+                            <constraint firstItem="F8z-K2-esI" firstAttribute="centerX" secondItem="O4h-fD-90L" secondAttribute="centerX" constant="1" id="U3O-4m-7io"/>
+                            <constraint firstItem="5Pv-Cg-bxR" firstAttribute="centerX" secondItem="YvM-bu-jrs" secondAttribute="centerX" id="UBf-Ve-GCt"/>
                             <constraint firstItem="dyS-aC-8dS" firstAttribute="centerX" secondItem="YvM-bu-jrs" secondAttribute="centerX" id="WnJ-KP-Yq1"/>
-                            <constraint firstItem="umZ-oY-nKw" firstAttribute="top" secondItem="O4h-fD-90L" secondAttribute="bottom" constant="48" id="XbJ-cm-Mh7"/>
+                            <constraint firstItem="umZ-oY-nKw" firstAttribute="top" secondItem="O4h-fD-90L" secondAttribute="bottom" constant="83" id="XbJ-cm-Mh7"/>
                             <constraint firstItem="eye-FX-hsT" firstAttribute="top" secondItem="etC-Jp-gCy" secondAttribute="bottom" constant="27" id="Yls-uy-t4R"/>
                             <constraint firstItem="F8z-K2-esI" firstAttribute="leading" secondItem="etC-Jp-gCy" secondAttribute="leading" id="ZRM-qt-SWd"/>
                             <constraint firstItem="F8z-K2-esI" firstAttribute="leading" secondItem="eye-FX-hsT" secondAttribute="leading" id="bsx-Yf-mFN"/>
-                            <constraint firstItem="O4h-fD-90L" firstAttribute="centerX" secondItem="dyS-aC-8dS" secondAttribute="centerX" constant="1" id="hSx-IZ-EF7"/>
+                            <constraint firstItem="O4h-fD-90L" firstAttribute="centerX" secondItem="dyS-aC-8dS" secondAttribute="centerX" id="hSx-IZ-EF7"/>
                             <constraint firstItem="Aht-3C-0Me" firstAttribute="leading" secondItem="YvM-bu-jrs" secondAttribute="leadingMargin" constant="36" id="m4f-ZB-CmU"/>
                             <constraint firstItem="Aht-3C-0Me" firstAttribute="leading" secondItem="9nP-vY-28A" secondAttribute="leading" id="maw-tf-L0O"/>
                             <constraint firstItem="F8z-K2-esI" firstAttribute="trailing" secondItem="Aht-3C-0Me" secondAttribute="trailing" id="r3F-7Q-6F8"/>
                             <constraint firstItem="dyS-aC-8dS" firstAttribute="top" secondItem="9nP-vY-28A" secondAttribute="bottom" constant="8" symbolic="YES" id="tid-SP-ZoM"/>
+                            <constraint firstItem="5Pv-Cg-bxR" firstAttribute="top" secondItem="O4h-fD-90L" secondAttribute="bottom" constant="8" id="vtL-kM-P0q"/>
                             <constraint firstItem="etC-Jp-gCy" firstAttribute="top" secondItem="F8z-K2-esI" secondAttribute="bottom" constant="26" id="wKu-sl-Kim"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iCx-zf-ccz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12" y="810"/>
+            <point key="canvasLocation" x="12" y="891"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign In View Controller-->
         <scene sceneID="kP1-wa-Fst">
             <objects>
-                <viewController id="zkk-qn-oLT" sceneMemberID="viewController">
+                <viewController id="zkk-qn-oLT" customClass="SignInViewController" customModule="Sign_In_Template" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yoi-lt-adN"/>
                         <viewControllerLayoutGuide type="bottom" id="jny-rc-40Q"/>
@@ -234,7 +248,7 @@
                                     <constraint firstAttribute="height" constant="51" id="nRv-zf-2Xw"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald Regular" pointSize="17"/>
-                                <state key="normal" title="Sign Up">
+                                <state key="normal" title="Login">
                                     <color key="titleColor" red="0.99991279840000002" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
@@ -251,9 +265,20 @@
                                     <constraint firstAttribute="height" constant="100" id="DVB-5P-2qI"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ess-AB-ZlZ">
+                                <rect key="frame" x="130" y="448" width="115" height="36"/>
+                                <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="17"/>
+                                <state key="normal" title="Create new account">
+                                    <color key="titleColor" red="0.17254901959999999" green="0.23529411759999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sqd-fw-7Pz" kind="show" id="mbh-HQ-xkH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="ess-AB-ZlZ" firstAttribute="top" secondItem="r1Y-Ji-WPv" secondAttribute="bottom" constant="22" id="9HA-0y-sBZ"/>
                             <constraint firstItem="wC3-Sr-5nQ" firstAttribute="top" secondItem="yoi-lt-adN" secondAttribute="bottom" constant="80" id="JDF-Fa-9lT"/>
                             <constraint firstItem="r1Y-Ji-WPv" firstAttribute="top" secondItem="2C1-6m-uRw" secondAttribute="bottom" constant="22" id="Sf5-rf-aBi"/>
                             <constraint firstItem="JK5-P1-2wZ" firstAttribute="trailing" secondItem="2C1-6m-uRw" secondAttribute="trailing" id="TrS-yi-3mK"/>
@@ -264,13 +289,14 @@
                             <constraint firstItem="JK5-P1-2wZ" firstAttribute="leading" secondItem="2C1-6m-uRw" secondAttribute="leading" id="vnE-y3-p53"/>
                             <constraint firstItem="2C1-6m-uRw" firstAttribute="top" secondItem="JK5-P1-2wZ" secondAttribute="bottom" constant="22" id="waZ-XZ-Cxu"/>
                             <constraint firstItem="JK5-P1-2wZ" firstAttribute="centerX" secondItem="wC3-Sr-5nQ" secondAttribute="centerX" id="wpa-XL-blU"/>
+                            <constraint firstItem="ess-AB-ZlZ" firstAttribute="centerX" secondItem="v4T-gS-LLV" secondAttribute="centerX" id="xbL-9w-Tfq"/>
                             <constraint firstItem="JK5-P1-2wZ" firstAttribute="trailing" secondItem="wC3-Sr-5nQ" secondAttribute="trailing" constant="86" id="zhD-th-zTd"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P77-vH-6lO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="762" y="121"/>
+            <point key="canvasLocation" x="760.79999999999995" y="120.98950524737631"/>
         </scene>
     </scenes>
     <resources>
@@ -278,4 +304,7 @@
         <image name="profile-picture-selector.png" width="106" height="106"/>
         <image name="protocrane" width="110" height="114"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="mbh-HQ-xkH"/>
+    </inferredMetricsTieBreakers>
 </document>
