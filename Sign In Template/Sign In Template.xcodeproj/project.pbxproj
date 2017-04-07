@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2794C7A11E973910009D90A3 /* profile-picture-selector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2794C7A01E973910009D90A3 /* profile-picture-selector@2x.png */; };
+		27D9AA5B1E9727F3000B4C2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9AA5A1E9727F3000B4C2B /* AppDelegate.swift */; };
+		27D9AA5D1E9727F3000B4C2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9AA5C1E9727F3000B4C2B /* ViewController.swift */; };
+		27D9AA601E9727F3000B4C2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA5E1E9727F3000B4C2B /* Main.storyboard */; };
+		27D9AA621E9727F3000B4C2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA611E9727F3000B4C2B /* Assets.xcassets */; };
+		27D9AA651E9727F3000B4C2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA631E9727F3000B4C2B /* LaunchScreen.storyboard */; };
+		27D9AA7F1E972C28000B4C2B /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA6F1E972C28000B4C2B /* Oswald-Bold.ttf */; };
+		27D9AA801E972C28000B4C2B /* Oswald-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA701E972C28000B4C2B /* Oswald-BoldItalic.ttf */; };
+		27D9AA811E972C28000B4C2B /* Oswald-Demi-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA711E972C28000B4C2B /* Oswald-Demi-BoldItalic.ttf */; };
+		27D9AA821E972C28000B4C2B /* Oswald-DemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA721E972C28000B4C2B /* Oswald-DemiBold.ttf */; };
+		27D9AA831E972C28000B4C2B /* Oswald-Extra-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA731E972C28000B4C2B /* Oswald-Extra-LightItalic.ttf */; };
+		27D9AA841E972C28000B4C2B /* Oswald-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA741E972C28000B4C2B /* Oswald-ExtraLight.ttf */; };
+		27D9AA851E972C28000B4C2B /* Oswald-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA751E972C28000B4C2B /* Oswald-Heavy.ttf */; };
+		27D9AA861E972C28000B4C2B /* Oswald-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA761E972C28000B4C2B /* Oswald-HeavyItalic.ttf */; };
+		27D9AA871E972C28000B4C2B /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA771E972C28000B4C2B /* Oswald-Light.ttf */; };
+		27D9AA881E972C28000B4C2B /* Oswald-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA781E972C28000B4C2B /* Oswald-LightItalic.ttf */; };
+		27D9AA891E972C28000B4C2B /* Oswald-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA791E972C28000B4C2B /* Oswald-Medium.ttf */; };
+		27D9AA8A1E972C28000B4C2B /* Oswald-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA7A1E972C28000B4C2B /* Oswald-MediumItalic.ttf */; };
+		27D9AA8B1E972C28000B4C2B /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA7B1E972C28000B4C2B /* Oswald-Regular.ttf */; };
+		27D9AA8C1E972C28000B4C2B /* Oswald-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA7C1E972C28000B4C2B /* Oswald-RegularItalic.ttf */; };
+		27D9AA8D1E972C28000B4C2B /* Oswald-Stencil.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA7D1E972C28000B4C2B /* Oswald-Stencil.ttf */; };
+		27D9AA8E1E972C28000B4C2B /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA7E1E972C28000B4C2B /* SIL Open Font License.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2794C7A01E973910009D90A3 /* profile-picture-selector@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-picture-selector@2x.png"; sourceTree = "<group>"; };
+		27D9AA571E9727F3000B4C2B /* Sign In Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sign In Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D9AA5A1E9727F3000B4C2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27D9AA5C1E9727F3000B4C2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27D9AA5F1E9727F3000B4C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27D9AA611E9727F3000B4C2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27D9AA641E9727F3000B4C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27D9AA661E9727F3000B4C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27D9AA6D1E972BD2000B4C2B /* Oswald-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Oswald-Light.otf"; path = "Sign In Template/Oswald-Light.otf"; sourceTree = "<group>"; };
+		27D9AA6F1E972C28000B4C2B /* Oswald-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Bold.ttf"; sourceTree = "<group>"; };
+		27D9AA701E972C28000B4C2B /* Oswald-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-BoldItalic.ttf"; sourceTree = "<group>"; };
+		27D9AA711E972C28000B4C2B /* Oswald-Demi-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Demi-BoldItalic.ttf"; sourceTree = "<group>"; };
+		27D9AA721E972C28000B4C2B /* Oswald-DemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-DemiBold.ttf"; sourceTree = "<group>"; };
+		27D9AA731E972C28000B4C2B /* Oswald-Extra-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Extra-LightItalic.ttf"; sourceTree = "<group>"; };
+		27D9AA741E972C28000B4C2B /* Oswald-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-ExtraLight.ttf"; sourceTree = "<group>"; };
+		27D9AA751E972C28000B4C2B /* Oswald-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Heavy.ttf"; sourceTree = "<group>"; };
+		27D9AA761E972C28000B4C2B /* Oswald-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		27D9AA771E972C28000B4C2B /* Oswald-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Light.ttf"; sourceTree = "<group>"; };
+		27D9AA781E972C28000B4C2B /* Oswald-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-LightItalic.ttf"; sourceTree = "<group>"; };
+		27D9AA791E972C28000B4C2B /* Oswald-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Medium.ttf"; sourceTree = "<group>"; };
+		27D9AA7A1E972C28000B4C2B /* Oswald-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-MediumItalic.ttf"; sourceTree = "<group>"; };
+		27D9AA7B1E972C28000B4C2B /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		27D9AA7C1E972C28000B4C2B /* Oswald-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-RegularItalic.ttf"; sourceTree = "<group>"; };
+		27D9AA7D1E972C28000B4C2B /* Oswald-Stencil.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Stencil.ttf"; sourceTree = "<group>"; };
+		27D9AA7E1E972C28000B4C2B /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27D9AA541E9727F3000B4C2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27D9AA4E1E9727F3000B4C2B = {
+			isa = PBXGroup;
+			children = (
+				27D9AA6E1E972BE2000B4C2B /* Fonts */,
+				27D9AA591E9727F3000B4C2B /* Sign In Template */,
+				27D9AA581E9727F3000B4C2B /* Products */,
+				2794C7A01E973910009D90A3 /* profile-picture-selector@2x.png */,
+			);
+			sourceTree = "<group>";
+		};
+		27D9AA581E9727F3000B4C2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27D9AA571E9727F3000B4C2B /* Sign In Template.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27D9AA591E9727F3000B4C2B /* Sign In Template */ = {
+			isa = PBXGroup;
+			children = (
+				27D9AA5A1E9727F3000B4C2B /* AppDelegate.swift */,
+				27D9AA5C1E9727F3000B4C2B /* ViewController.swift */,
+				27D9AA5E1E9727F3000B4C2B /* Main.storyboard */,
+				27D9AA611E9727F3000B4C2B /* Assets.xcassets */,
+				27D9AA631E9727F3000B4C2B /* LaunchScreen.storyboard */,
+				27D9AA661E9727F3000B4C2B /* Info.plist */,
+			);
+			path = "Sign In Template";
+			sourceTree = "<group>";
+		};
+		27D9AA6E1E972BE2000B4C2B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				27D9AA6D1E972BD2000B4C2B /* Oswald-Light.otf */,
+				27D9AA6F1E972C28000B4C2B /* Oswald-Bold.ttf */,
+				27D9AA701E972C28000B4C2B /* Oswald-BoldItalic.ttf */,
+				27D9AA711E972C28000B4C2B /* Oswald-Demi-BoldItalic.ttf */,
+				27D9AA721E972C28000B4C2B /* Oswald-DemiBold.ttf */,
+				27D9AA731E972C28000B4C2B /* Oswald-Extra-LightItalic.ttf */,
+				27D9AA741E972C28000B4C2B /* Oswald-ExtraLight.ttf */,
+				27D9AA751E972C28000B4C2B /* Oswald-Heavy.ttf */,
+				27D9AA761E972C28000B4C2B /* Oswald-HeavyItalic.ttf */,
+				27D9AA771E972C28000B4C2B /* Oswald-Light.ttf */,
+				27D9AA781E972C28000B4C2B /* Oswald-LightItalic.ttf */,
+				27D9AA791E972C28000B4C2B /* Oswald-Medium.ttf */,
+				27D9AA7A1E972C28000B4C2B /* Oswald-MediumItalic.ttf */,
+				27D9AA7B1E972C28000B4C2B /* Oswald-Regular.ttf */,
+				27D9AA7C1E972C28000B4C2B /* Oswald-RegularItalic.ttf */,
+				27D9AA7D1E972C28000B4C2B /* Oswald-Stencil.ttf */,
+				27D9AA7E1E972C28000B4C2B /* SIL Open Font License.txt */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27D9AA561E9727F3000B4C2B /* Sign In Template */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27D9AA691E9727F3000B4C2B /* Build configuration list for PBXNativeTarget "Sign In Template" */;
+			buildPhases = (
+				27D9AA531E9727F3000B4C2B /* Sources */,
+				27D9AA541E9727F3000B4C2B /* Frameworks */,
+				27D9AA551E9727F3000B4C2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sign In Template";
+			productName = "Sign In Template";
+			productReference = 27D9AA571E9727F3000B4C2B /* Sign In Template.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27D9AA4F1E9727F3000B4C2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Michael V. Corpus";
+				TargetAttributes = {
+					27D9AA561E9727F3000B4C2B = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = RQQ2265X45;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 27D9AA521E9727F3000B4C2B /* Build configuration list for PBXProject "Sign In Template" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27D9AA4E1E9727F3000B4C2B;
+			productRefGroup = 27D9AA581E9727F3000B4C2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27D9AA561E9727F3000B4C2B /* Sign In Template */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27D9AA551E9727F3000B4C2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2794C7A11E973910009D90A3 /* profile-picture-selector@2x.png in Resources */,
+				27D9AA861E972C28000B4C2B /* Oswald-HeavyItalic.ttf in Resources */,
+				27D9AA8D1E972C28000B4C2B /* Oswald-Stencil.ttf in Resources */,
+				27D9AA811E972C28000B4C2B /* Oswald-Demi-BoldItalic.ttf in Resources */,
+				27D9AA651E9727F3000B4C2B /* LaunchScreen.storyboard in Resources */,
+				27D9AA891E972C28000B4C2B /* Oswald-Medium.ttf in Resources */,
+				27D9AA881E972C28000B4C2B /* Oswald-LightItalic.ttf in Resources */,
+				27D9AA8A1E972C28000B4C2B /* Oswald-MediumItalic.ttf in Resources */,
+				27D9AA871E972C28000B4C2B /* Oswald-Light.ttf in Resources */,
+				27D9AA8B1E972C28000B4C2B /* Oswald-Regular.ttf in Resources */,
+				27D9AA851E972C28000B4C2B /* Oswald-Heavy.ttf in Resources */,
+				27D9AA8C1E972C28000B4C2B /* Oswald-RegularItalic.ttf in Resources */,
+				27D9AA621E9727F3000B4C2B /* Assets.xcassets in Resources */,
+				27D9AA821E972C28000B4C2B /* Oswald-DemiBold.ttf in Resources */,
+				27D9AA601E9727F3000B4C2B /* Main.storyboard in Resources */,
+				27D9AA801E972C28000B4C2B /* Oswald-BoldItalic.ttf in Resources */,
+				27D9AA831E972C28000B4C2B /* Oswald-Extra-LightItalic.ttf in Resources */,
+				27D9AA7F1E972C28000B4C2B /* Oswald-Bold.ttf in Resources */,
+				27D9AA841E972C28000B4C2B /* Oswald-ExtraLight.ttf in Resources */,
+				27D9AA8E1E972C28000B4C2B /* SIL Open Font License.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27D9AA531E9727F3000B4C2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D9AA5D1E9727F3000B4C2B /* ViewController.swift in Sources */,
+				27D9AA5B1E9727F3000B4C2B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27D9AA5E1E9727F3000B4C2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27D9AA5F1E9727F3000B4C2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27D9AA631E9727F3000B4C2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27D9AA641E9727F3000B4C2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27D9AA671E9727F3000B4C2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27D9AA681E9727F3000B4C2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27D9AA6A1E9727F3000B4C2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RQQ2265X45;
+				INFOPLIST_FILE = "Sign In Template/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mikeroscoop.Sign-In-Template";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		27D9AA6B1E9727F3000B4C2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RQQ2265X45;
+				INFOPLIST_FILE = "Sign In Template/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mikeroscoop.Sign-In-Template";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27D9AA521E9727F3000B4C2B /* Build configuration list for PBXProject "Sign In Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D9AA671E9727F3000B4C2B /* Debug */,
+				27D9AA681E9727F3000B4C2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27D9AA691E9727F3000B4C2B /* Build configuration list for PBXNativeTarget "Sign In Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D9AA6A1E9727F3000B4C2B /* Debug */,
+				27D9AA6B1E9727F3000B4C2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27D9AA4F1E9727F3000B4C2B /* Project object */;
+}
