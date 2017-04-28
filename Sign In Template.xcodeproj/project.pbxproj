@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		273E4FDE1E97567B0032F6DD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273E4FDD1E97567B0032F6DD /* SignUpViewController.swift */; };
 		273E4FE01E9758A40032F6DD /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273E4FDF1E9758A40032F6DD /* SignInViewController.swift */; };
+		27561E181EB2FBF4005A6C7F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27561E171EB2FBF4005A6C7F /* GoogleService-Info.plist */; };
 		2794C7A11E973910009D90A3 /* profile-picture-selector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2794C7A01E973910009D90A3 /* profile-picture-selector@2x.png */; };
 		27D9AA5B1E9727F3000B4C2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9AA5A1E9727F3000B4C2B /* AppDelegate.swift */; };
 		27D9AA5D1E9727F3000B4C2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9AA5C1E9727F3000B4C2B /* ViewController.swift */; };
@@ -31,11 +32,13 @@
 		27D9AA8C1E972C28000B4C2B /* Oswald-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA7C1E972C28000B4C2B /* Oswald-RegularItalic.ttf */; };
 		27D9AA8D1E972C28000B4C2B /* Oswald-Stencil.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA7D1E972C28000B4C2B /* Oswald-Stencil.ttf */; };
 		27D9AA8E1E972C28000B4C2B /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 27D9AA7E1E972C28000B4C2B /* SIL Open Font License.txt */; };
+		3A9F16F9B723311A35DFC2D2 /* Pods_Sign_In_Template.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FF25B7B58F9FD302AFA855 /* Pods_Sign_In_Template.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		273E4FDD1E97567B0032F6DD /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		273E4FDF1E9758A40032F6DD /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		27561E171EB2FBF4005A6C7F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2794C7A01E973910009D90A3 /* profile-picture-selector@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-picture-selector@2x.png"; sourceTree = "<group>"; };
 		27D9AA571E9727F3000B4C2B /* Sign In Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sign In Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D9AA5A1E9727F3000B4C2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +64,9 @@
 		27D9AA7C1E972C28000B4C2B /* Oswald-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-RegularItalic.ttf"; sourceTree = "<group>"; };
 		27D9AA7D1E972C28000B4C2B /* Oswald-Stencil.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Stencil.ttf"; sourceTree = "<group>"; };
 		27D9AA7E1E972C28000B4C2B /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		3DED596F7703164EB07E6E1A /* Pods-Sign In Template.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sign In Template.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sign In Template/Pods-Sign In Template.release.xcconfig"; sourceTree = "<group>"; };
+		80FF25B7B58F9FD302AFA855 /* Pods_Sign_In_Template.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sign_In_Template.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B62D582621086151C959CD /* Pods-Sign In Template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sign In Template.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sign In Template/Pods-Sign In Template.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +74,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A9F16F9B723311A35DFC2D2 /* Pods_Sign_In_Template.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27561E131EB2E213005A6C7F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		27561E141EB2E225005A6C7F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		27561E151EB2E229005A6C7F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				273E4FDD1E97567B0032F6DD /* SignUpViewController.swift */,
+				27D9AA5C1E9727F3000B4C2B /* ViewController.swift */,
+				273E4FDF1E9758A40032F6DD /* SignInViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		27561E161EB2E22D005A6C7F /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
 		27D9AA4E1E9727F3000B4C2B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				27D9AA591E9727F3000B4C2B /* Sign In Template */,
 				27D9AA581E9727F3000B4C2B /* Products */,
 				2794C7A01E973910009D90A3 /* profile-picture-selector@2x.png */,
+				CAA244DD20E255C4CAA07AD8 /* Pods */,
+				A7F5AE08F5B89E1615A4680A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,14 +135,16 @@
 		27D9AA591E9727F3000B4C2B /* Sign In Template */ = {
 			isa = PBXGroup;
 			children = (
+				27561E161EB2E22D005A6C7F /* Plugins */,
+				27561E151EB2E229005A6C7F /* Controller */,
+				27561E141EB2E225005A6C7F /* View */,
+				27561E131EB2E213005A6C7F /* Model */,
 				27D9AA5A1E9727F3000B4C2B /* AppDelegate.swift */,
-				27D9AA5C1E9727F3000B4C2B /* ViewController.swift */,
 				27D9AA5E1E9727F3000B4C2B /* Main.storyboard */,
-				273E4FDD1E97567B0032F6DD /* SignUpViewController.swift */,
 				27D9AA611E9727F3000B4C2B /* Assets.xcassets */,
 				27D9AA631E9727F3000B4C2B /* LaunchScreen.storyboard */,
 				27D9AA661E9727F3000B4C2B /* Info.plist */,
-				273E4FDF1E9758A40032F6DD /* SignInViewController.swift */,
+				27561E171EB2FBF4005A6C7F /* GoogleService-Info.plist */,
 			);
 			path = "Sign In Template";
 			sourceTree = "<group>";
@@ -131,6 +173,23 @@
 			name = Fonts;
 			sourceTree = "<group>";
 		};
+		A7F5AE08F5B89E1615A4680A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80FF25B7B58F9FD302AFA855 /* Pods_Sign_In_Template.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAA244DD20E255C4CAA07AD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3B62D582621086151C959CD /* Pods-Sign In Template.debug.xcconfig */,
+				3DED596F7703164EB07E6E1A /* Pods-Sign In Template.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27D9AA691E9727F3000B4C2B /* Build configuration list for PBXNativeTarget "Sign In Template" */;
 			buildPhases = (
+				A6DD80408147CDDB4CA1A795 /* [CP] Check Pods Manifest.lock */,
 				27D9AA531E9727F3000B4C2B /* Sources */,
 				27D9AA541E9727F3000B4C2B /* Frameworks */,
 				27D9AA551E9727F3000B4C2B /* Resources */,
+				861A4D6C152CBD034C089626 /* [CP] Embed Pods Frameworks */,
+				E8059122F7D37AAE8DED2C11 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,10 +273,59 @@
 				27D9AA7F1E972C28000B4C2B /* Oswald-Bold.ttf in Resources */,
 				27D9AA841E972C28000B4C2B /* Oswald-ExtraLight.ttf in Resources */,
 				27D9AA8E1E972C28000B4C2B /* SIL Open Font License.txt in Resources */,
+				27561E181EB2FBF4005A6C7F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		861A4D6C152CBD034C089626 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sign In Template/Pods-Sign In Template-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6DD80408147CDDB4CA1A795 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8059122F7D37AAE8DED2C11 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sign In Template/Pods-Sign In Template-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		27D9AA531E9727F3000B4C2B /* Sources */ = {
@@ -345,6 +456,7 @@
 		};
 		27D9AA6A1E9727F3000B4C2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3B62D582621086151C959CD /* Pods-Sign In Template.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RQQ2265X45;
@@ -358,6 +470,7 @@
 		};
 		27D9AA6B1E9727F3000B4C2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DED596F7703164EB07E6E1A /* Pods-Sign In Template.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RQQ2265X45;

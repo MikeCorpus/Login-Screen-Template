@@ -1,0 +1,6 @@
+framework module Pods_Sign_In_Template {
+  umbrella header "Pods-Sign In Template-umbrella.h"
+
+  export *
+  module * { export * }
+}
