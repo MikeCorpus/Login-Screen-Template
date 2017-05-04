@@ -11,6 +11,9 @@
 		273E4FE01E9758A40032F6DD /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273E4FDF1E9758A40032F6DD /* SignInViewController.swift */; };
 		27561E181EB2FBF4005A6C7F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27561E171EB2FBF4005A6C7F /* GoogleService-Info.plist */; };
 		2794C7A11E973910009D90A3 /* profile-picture-selector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2794C7A01E973910009D90A3 /* profile-picture-selector@2x.png */; };
+		27A6F35C1EBAE77E0031B28F /* DBProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A6F35B1EBAE77E0031B28F /* DBProvider.swift */; };
+		27BD90B51EBB2C4500FB102B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BD90B41EBB2C4500FB102B /* Constants.swift */; };
+		27CEE5E31EBACF2500B6BFB8 /* ProtectedContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CEE5E21EBACF2500B6BFB8 /* ProtectedContentVC.swift */; };
 		27CF0B3F1EB30B5A00EBFC4D /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CF0B3E1EB30B5A00EBFC4D /* AuthProvider.swift */; };
 		27D9AA5B1E9727F3000B4C2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9AA5A1E9727F3000B4C2B /* AppDelegate.swift */; };
 		27D9AA5D1E9727F3000B4C2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9AA5C1E9727F3000B4C2B /* ViewController.swift */; };
@@ -41,6 +44,9 @@
 		273E4FDF1E9758A40032F6DD /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		27561E171EB2FBF4005A6C7F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2794C7A01E973910009D90A3 /* profile-picture-selector@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-picture-selector@2x.png"; sourceTree = "<group>"; };
+		27A6F35B1EBAE77E0031B28F /* DBProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBProvider.swift; sourceTree = "<group>"; };
+		27BD90B41EBB2C4500FB102B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		27CEE5E21EBACF2500B6BFB8 /* ProtectedContentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectedContentVC.swift; sourceTree = "<group>"; };
 		27CF0B3E1EB30B5A00EBFC4D /* AuthProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthProvider.swift; sourceTree = "<group>"; };
 		27D9AA571E9727F3000B4C2B /* Sign In Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sign In Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D9AA5A1E9727F3000B4C2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +109,7 @@
 				273E4FDF1E9758A40032F6DD /* SignInViewController.swift */,
 				273E4FDD1E97567B0032F6DD /* SignUpViewController.swift */,
 				27D9AA5C1E9727F3000B4C2B /* ViewController.swift */,
+				27CEE5E21EBACF2500B6BFB8 /* ProtectedContentVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -111,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				27CF0B3E1EB30B5A00EBFC4D /* AuthProvider.swift */,
+				27A6F35B1EBAE77E0031B28F /* DBProvider.swift */,
+				27BD90B41EBB2C4500FB102B /* Constants.swift */,
 			);
 			name = Plugins;
 			sourceTree = "<group>";
@@ -338,8 +347,11 @@
 				273E4FE01E9758A40032F6DD /* SignInViewController.swift in Sources */,
 				273E4FDE1E97567B0032F6DD /* SignUpViewController.swift in Sources */,
 				27CF0B3F1EB30B5A00EBFC4D /* AuthProvider.swift in Sources */,
+				27A6F35C1EBAE77E0031B28F /* DBProvider.swift in Sources */,
 				27D9AA5D1E9727F3000B4C2B /* ViewController.swift in Sources */,
 				27D9AA5B1E9727F3000B4C2B /* AppDelegate.swift in Sources */,
+				27CEE5E31EBACF2500B6BFB8 /* ProtectedContentVC.swift in Sources */,
+				27BD90B51EBB2C4500FB102B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

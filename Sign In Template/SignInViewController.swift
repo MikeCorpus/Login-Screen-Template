@@ -9,6 +9,8 @@
 import UIKit
 
 class SignInViewController: UIViewController {
+    
+     private let PROTECTED_CONTENT_SEGUE = "ProtectedContentVC"
 
     @IBOutlet weak var emailTextField: UITextField!
     
@@ -22,12 +24,15 @@ class SignInViewController: UIViewController {
     }
     
     @IBAction func logIn(_ sender: Any) {
+        
+        
         if emailTextField.text != "" && passwordTextField.text != "" {
             AuthProvider.Instance.login(withEmail: emailTextField.text!, password: passwordTextField.text!, LoginHandler: { (message) in
                 
                 if message != nil {
                     self.alertTheUser(title: "Problem with Authentication", message: message!)
                 } else {
+                    self.performSegue(withIdentifier: self.PROTECTED_CONTENT_SEGUE, sender: nil)
                     print("LOGIN COMPLETE")
                 }
             

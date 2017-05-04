@@ -10,6 +10,7 @@ import UIKit
 
 class SignUpViewController: UIViewController {
     
+    private let PROTECTED_CONTENT_SEGUE = "ProtectedContentVC"
 
     @IBOutlet weak var passwordTextField: UITextField!
     
@@ -24,6 +25,7 @@ class SignUpViewController: UIViewController {
     
     @IBAction func signUp(_ sender: Any) {
         
+        
         if emailTextField.text != "" && passwordTextField.text != "" {
             
             AuthProvider.Instance.signUp(withEmail: emailTextField.text!, password: passwordTextField.text!, LoginHandler: { (message) in
@@ -31,7 +33,8 @@ class SignUpViewController: UIViewController {
                 if message != nil {
                     self.alertTheUser(title: "Problem With Creating The User", message: message!)
                 } else {
-                    print("Creating user completed.")
+                    self.performSegue(withIdentifier: self.PROTECTED_CONTENT_SEGUE, sender: nil)
+                    print("Login of new user completed.")
                 }
                 
             })
