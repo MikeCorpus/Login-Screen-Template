@@ -100,9 +100,9 @@
 		27561E151EB2E229005A6C7F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				273E4FDF1E9758A40032F6DD /* SignInViewController.swift */,
 				273E4FDD1E97567B0032F6DD /* SignUpViewController.swift */,
 				27D9AA5C1E9727F3000B4C2B /* ViewController.swift */,
-				273E4FDF1E9758A40032F6DD /* SignInViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";

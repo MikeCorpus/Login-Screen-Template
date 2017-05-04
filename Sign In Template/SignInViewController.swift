@@ -10,7 +10,7 @@ import UIKit
 
 class SignInViewController: UIViewController {
 
-    @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
     
     @IBOutlet weak var passwordTextField: UITextField!
     
@@ -22,8 +22,8 @@ class SignInViewController: UIViewController {
     }
     
     @IBAction func logIn(_ sender: Any) {
-        if usernameTextField.text != "" && passwordTextField.text != "" {
-            AuthProvider.Instance.login(withEmail: usernameTextField.text!, password: passwordTextField.text!, LoginHandler: { (message) in
+        if emailTextField.text != "" && passwordTextField.text != "" {
+            AuthProvider.Instance.login(withEmail: emailTextField.text!, password: passwordTextField.text!, LoginHandler: { (message) in
                 
                 if message != nil {
                     self.alertTheUser(title: "Problem with Authentication", message: message!)
@@ -34,7 +34,7 @@ class SignInViewController: UIViewController {
             
             })
         } else {
-            self.alertTheUser(title: "Login Failed", message: "Please enter a valid email and password")
+            self.alertTheUser(title: "Email and Password Required", message: "Please enter email and password")
         }
     }
     
